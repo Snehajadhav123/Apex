@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>APEX-GST REGISTRATION</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid top-bar bg-dark text-light px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row gx-0 align-items-center d-none d-lg-flex">
+            <!-- top header -->
+            <div class="top-header" id="topnav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <ul class="list-inline text-lg-right text-center">
+                                <li class="list-inline-item">
+                                    <a href="mailto:contact@apex.in">contact@apex.in</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <!-- <a href="tel:+91-8000900068">Call Us Now: -->
+                                    <span class="ml-2 text-white"><a href="tel:+918000900068">Call Us Now:
+                                            +91-8000900068</a></span>
+                                    <!-- </a> -->
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" id="searchOpen">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+            <h2 class="text-primary m-0">APEX</h2>
+
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav mx-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About Us</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ITR</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="ITR.html" class="dropdown-item">ITR</a>
+                        <a href="itsp.html" class="dropdown-item">INCOME TAX SAVIOUR PLAN</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">GST</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="greg.html" class="dropdown-item">GST REGISTRATION</a>
+                        <a href="geass.html" class="dropdown-item">GST-E-ASSESSMENT</a>
+                        <a href="gfill.html" class="dropdown-item">GST FILING</a>
+                    </div>
+                </div>
+
+
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">REGISTRATION</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="FSSAI.html" class="dropdown-item">FSSAI</a>
+                        <a href="greg.html" class="dropdown-item">GST REGISTRATION</a>
+                        <a href="company-registration.html" class="dropdown-item">COMPANY REGISTRATION</a>
+                        <a href="TRADEMARK REG.html" class="dropdown-item">TRADEMARK REGISTRATION</a>
+                        <a href="IEC.html" class="dropdown-item">IEC CODE</a>
+                        <a href="MSME.html" class="dropdown-item">MSME REGISTRATION</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">OTHER SERVICES</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="book.html" class="dropdown-item">BOOK KEEPING</a>
+                        <a href="ROC.html" class="dropdown-item">ROC FILING</a>
+                    </div>
+                </div>
+                <a href="news.html" class="nav-item nav-link">NEWS</a>
+                <a href="contact.html" class="nav-item nav-link">CONTACT US</a>
+            </div>
+            <div class=" d-none d-lg-flex">
+
+                <ul>
+                    <li style="margin-top: -15px;">
+                        <a class="nav-link btn btn-primary btn-sm" href="login.html" data-toggle="modal"
+                            data-target="#loginForm" style="color: #fff;">LOGIN | SIGNUP <i class="fa fa-sign-in"
+                                aria-hidden="true"></i> </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-6 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center pt-5 pb-3">
+            <h1 class="display-4 text-white animated slideInDown mb-3">GST Registration</h1>
+            <p class="text-light fs-5 mb-4 pb-3">Registration of any business entity under the GST Law implies obtaining
+                a unique number from the concerned tax authorities for the purpose of collecting tax on behalf of the
+                government and to avail Input tax credit for the taxes on his inward supplies.</p>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    
+
+<!-- GST Registration -->
+
+    <div class="container-xxl py-6">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="row img-twice position-relative h-100">
+                        <div class="col-6">
+                            <img class="img-fluid rounded" src="img/ITR.jpg" alt="" width="2000" height="2000">
+                        </div>
+                        <div class="col-6 align-self-end">
+                            <img class="img-fluid rounded" src="img/GST.jpg" alt="" width="2000" height="2000">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <h1 class="display-6 mb-4">GST Registration</h1>
+                        <p>GST Registration is the process of obtaining a unique identification number by a supplier
+                            from the tax authorities; it is for the identification of the taxpayer. Every
+                            supplier/business having turnover of Rs 40 lakhs or more (Rs 10 lakhs for special category
+                            states) needs to get registered under GST. The supplier shall be allotted a 15-digit GSTIN
+                            (GST identification number) and a certificate of registration by the GST department. SUPER
+                            CA helps you to get your GST REGISTRATION done within 4-6 working days at the lowest prices.
+                            Let us make it easy for you. REGISTER NOW</p>
+                    </div>
+                </div>
+
+
+                <div>
+                    <h5>WHO SHOULD REGISTER UNDER GST?</h5>
+                </div>
+
+                <div>
+                    <h6>TURNOVER LIMIT (SEC 22)</h6>
+                    <p>
+                        * Businesses engaged in supply of goods having turnover of Rs 40 lakhs or more (10 lakhs if
+                        business is in in Assam, Himachal Pradesh, Uttarakhand, Arunachal Pradesh, Manipur, Mizoram,
+                        Sikkim, and Nagaland) are required to get registered under GST.
+                    </p>
+                    <p>
+                        * Service providers having turnover of Rs 20 lakhs or more (10 lakhs if business is in Assam,
+                        Himachal Pradesh, Uttarakhand, Arunachal Pradesh, Manipur, Mizoram, Sikkim, and Nagaland) are
+                        required to get registered under GST.
+                    </p>
+                </div>
+                <div>
+                    <h6>COMPULSORY GST REGISTRATION (SEC 24)</h6>
+                    <p>
+                        * Entity/person making Interstate Taxable supply.
+                    </p>
+                    <p>
+                        * Casual Taxable persons making Taxable supply.
+                    </p>
+                    <p>
+                        * Non-Resident Taxable persons making Taxable supply.
+                    </p>
+                    <p>
+                        * Input Service Distributor.
+
+                    </p>
+                    <p>* Every Electronic commerce operator.
+
+                    </p>
+                    <p>
+                        * Supplier of OIDAR (online information and database access or retrieval services) from outside
+                        India to a person in India, other than a registered taxable person.
+                    </p>
+                    <p>
+                        * Agent of a supplier (Person making supply on behalf of a taxable person)
+                    </p>
+                    <p>
+                        * Persons required paying tax under Reverse Charge scheme.
+                    </p>
+                    <p>
+                        * TDS Deductor.
+                    </p>
+                    </p>
+                    <h6>VOLUNTARY REGISTRATION (SEC 25)</h6>
+                    <p>
+                        A Person engaged in supply of taxable goods and services can get him registered voluntarily even
+                        if he does not qualify for compulsory registration or does not cross the specified turnover
+                    </p>
+
+                    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                        <p class="text-primary text-uppercase mb-2">Documents Required for</p>
+                        <h1 class="display-6 mb-4">GST REGISTRATION</h1>
+                    </div>
+                    <div class="owl-carousel-item position-relative">
+                       <center> <img class="img-fluid" src="img/greg.jpg" alt=""></center>
+                    </div>
+
+                </div>
+
+
+                <div>
+                    <h1>ADVANTAGES</h1>
+                </div>
+                <div class="row g-2 mb-4">
+                    <div class="col-sm-6">
+                        <i class="fa fa-check text-primary me-2"></i> LEGAL RECOGNITION
+                        <p>The Individual/businesses shall be legally recognized as a Supplier of Goods & Services</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="fa fa-check text-primary me-2"></i> INPUT TAX CREDIT CLAIM
+                        <p>Registered person can claim the Input tax credit (tax paid on the purchase of goods &
+                            services)</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="fa fa-check text-primary me-2"></i> INTERSTATE SUPPLY
+                        <p>He can make Interstate sales without restrictions</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="fa fa-check text-primary me-2"></i>TRANSFER OF INPUT TAX CREDIT
+                        <p>IRegistered person can pass on the credit of the taxes paid on the supply of the goods &
+                            services to the purchaser.</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="fa fa-check text-primary me-2"></i>COMPETITIVE ADVANTAGE
+                        <p>He can have a competitive advantage in comparison to other businesses Small businesses
+                            (having turnover of less than 1 crore) can opt for composition scheme to lower their taxes
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="fa fa-check text-primary me-2"></i>LESS COMPLIANCE
+                        <p>In GST, the number of compliances are less as it has replaced all other indirect taxes</p>
+                    </div>
+                </div>
+
+        <!--End-->
+
+              <!-- form -->
+<div class="container-xxl py-6">
+    <div class="container">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+           <h1 class="display-6 mb-4">Get Free Consultation</h1>
+        </div>
+        <div class="row g-0 justify-content-center">
+            <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
+                <form>
+                    <div class="row g-3">
+                        <div class="col-md-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                <label for="name">Your Name</label>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                <label for="subject">Email ID</label>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                <label for="subject">Mobile Number</label>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12 text-center">
+                            <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">GET A CALL NOW</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+   <!-- Form End -->
+
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-light footer my-6 mb-0 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Main Office Address</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>apex123@google.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-square btn-outline-light rounded-circle me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Services</h4>
+                <a class="btn btn-link" href="">Gst</a>
+                <a class="btn btn-link" href="">ITR</a>
+                <a class="btn btn-link" href="">Trademark Registration</a>
+                <a class="btn btn-link" href="">FSSAI</a>
+                <a class="btn btn-link" href="">Book Keeping</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Quick Links</h4>
+                <a class="btn btn-link" href="">Home</a>
+                <a class="btn btn-link" href="">About Us</a>
+                <a class="btn btn-link" href="">Contact Us</a>
+                <a class="btn btn-link" href="">FAQ</a>
+               
+
+            </div>
+            <!-- subscribe form -->
+            <div class="col-lg-3 col-md-6">
+                <div class="mt-5 mt-lg-0 text-center text-md-left">
+                    <h4 class="mb-4 text-white">Subscribe Us</h4>
+                    <p class="text-white mb-4">Connect with us to get the latest updates.</p>
+                    <form id="subscribe-us" class="position-relative">
+                        <input type="text" class="form-control subscribe" name="subscriber_email" id="Subscribe" placeholder="Enter Your Email"><br>
+                        <div class="col-12 text-center">
+                            <button class="btn btn-primary rounded-pill py-1 px-3" type="submit">Send</button>
+                        </div>
+                            <i class="fa fa-long-arrow-right"></i>
+                        </button>
+                    </form>
+                       <div class="text-white mb-4"><i class="fa fa-envelope" aria-hidden="true" style="color:white;"></i><a href="mailto:contact@apex.in"> contact@apex.in</a></div>
+                       <div class="text-white mb-4" ><i class="fa fa-phone" aria-hidden="true" style="color:white;"></i><a href="tel:+918000900068"> +91-8000900068</a></div>
+                </div>
+            </div>
+            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+<!-- Copyright Start -->
+<div class="container-fluid copyright text-light py-4 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                &copy; <a href="#">APEX </a>, All Right Reserved.
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+                <pre>
+                <span>Privacy Policy       </span><span>Refund Policy      </span><span>Terms & Conditions</span>
+            </pre>
+                
+            
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Copyright End -->
+
+
+<!-- Back to Top -->
+<a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+<!--  Javascript -->
+<script src="js/main.js"></script>
+</body>
+
+</html>
